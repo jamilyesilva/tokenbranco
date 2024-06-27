@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    position: relative;
+    z-index: 1;
+color: rgb(255, 255, 255);
+font-family: Arial, sans-serif;
+background-color: #6b1616;
+text-align: center;
+padding: 10rem;
+background: linear-gradient(50deg, #000000,#1e1142, #2f1235, #000000 );
+background-size: 300% 200%;
+animation: moveGradinent 20s linear infinite;
+}
+
+@keyframes moveGradinent{
+0%{
+    background-position:0 0;
+}
+100%{
+    background-position:100% 100%;
+}
+}
+
+img {
+    text-decoration: flex;
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    transition: background-color 0.3s ease;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+
+}
+main {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+main p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+main a {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
+footer a {
+    color: #ffffff;
+}
+
+.btn {
+    padding: 2px 15px;
+    color: #ffffff;
+    background-color: #69279e;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.3s ease;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    width: 150px;
+
+}
+.central-square {
+    background-color: #6e6e6e;
+    border: 1px solid #4e2b2b;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+

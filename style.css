@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    position: relative;
+    z-index: 1;
+color: rgb(189, 190, 190);
+font-family: Arial, sans-serif;
+background-color: #f0f0f0;
+text-align: center;
+padding: 10rem;
+background: linear-gradient(50deg, #000000,#1e1142, #2f1235, #000000 );
+background-size: 300% 200%;
+animation: moveGradinent 20s linear infinite;
+}
+
+@keyframes moveGradinent{
+0%{
+    background-position:0 0;
+}
+100%{
+    background-position:100% 100%;
+}
+}
+
+h1 {
+color: #be3333;
+font-size: 2.5rem;
+margin-bottom: 1rem;
+}
+
+h2 {
+color: #bb9f9f;
+font-size: 1.2rem;
+line-height: 1.6;
+}
+
+button{
+display: inline-block;
+padding: 7px 15px;
+font-size: 1.2rem;
+background-color: #f7f7f7;
+color: #4b0c0c;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+text-decoration: none;
+transition: background-color 0.3s ease;
+}
+
+.container {
+max-width: 600px;
+margin: 0 auto;
+}
