@@ -1,31 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: #000;
-    position: relative;
-    z-index: 1;
-color: rgb(255, 255, 255);
-font-family: Arial, sans-serif;
-background-color: #6b1616;
-text-align: center;
-padding: 10rem;
-background: linear-gradient(50deg, #000000,#1e1142, #2f1235, #000000 );
-background-size: 300% 200%;
-animation: moveGradinent 20s linear infinite;
-}
-
-@keyframes moveGradinent{
-0%{
-    background-position:0 0;
-}
-100%{
-    background-position:100% 100%;
-}
-}
 
 img {
     text-decoration: flex;
