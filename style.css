@@ -59,6 +59,9 @@ h1 {
     margin-bottom: 1rem;
     margin-top: 1rem;
 }
+h2{
+    margin: 30px;
+}
 h3{
     font-size: 19px;
 }
@@ -84,21 +87,24 @@ button {
     padding: 20px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 33%;
-    margin: auto;
+    min-width: 33%;
+    max-width: 66%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn {
-    padding: 2px 15px;
     color: #ffffff;
     background-color: #69279e;
     text-decoration: none;
     border-radius: 7px;
     transition: background-color 0.3s ease;
-    margin: auto;
-    margin-top: 20px;
+    margin: 10px;
     display: block;
-    width: 100%;
+    width: 75%;
 
 }
 .wtzp {
@@ -122,6 +128,16 @@ img {
 
 }
 
+#fodase{
+    color: #0bd225;
+}
+
+.simounao{
+
+    width: 100px;
+
+}
+
 @media only screen and (max-width: 800px) {
     
     h1 {
@@ -133,6 +149,9 @@ img {
     }
     h3 {
         font-size: 2rem; /* Tamanho ajustado para telas menores */
+    }
+    .simounao{
+        width: 300px;
     }
 
 }
